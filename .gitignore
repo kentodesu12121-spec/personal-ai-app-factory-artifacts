@@ -1,0 +1,48 @@
+# Dependencies / build
+node_modules/
+dist/
+build/
+.cache/
+.tmp/
+temp/
+tmp/
+
+# Test output
+playwright-report/
+test-results/
+coverage/
+*.log
+*.trace
+*.har
+
+# Archives / binaries
+*.zip
+*.tar
+*.tgz
+*.tar.gz
+*.gz
+*.7z
+*.apk
+*.aab
+*.ipa
+
+# Media not allowed in V0 artifact bus
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp4
+*.mov
+
+# Secrets / env
+.env
+.env.*
+*.pem
+*.key
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
