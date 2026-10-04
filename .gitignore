@@ -1,0 +1,26 @@
+# Keep run branches free of generated or bulky files
+node_modules/
+dist/
+build/
+.cache/
+.tmp/
+temp/
+tmp/
+playwright-report/
+test-results/
+coverage/
+*.log
+*.trace
+*.har
+*.zip
+*.tar
+*.tgz
+*.tar.gz
+*.gz
+*.7z
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
